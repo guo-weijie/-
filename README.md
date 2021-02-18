@@ -1,19 +1,5 @@
 # 嘘~
 
-## Project setup
-```
-npm install
-```
+个人爱好，用来记录自己常看的一些视频链接、学习笔记以及其他的一些东西
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[点此进入](https://guo-weijie.github.io/ghosie/dist/index.html)
