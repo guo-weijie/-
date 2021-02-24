@@ -12,14 +12,37 @@ const routes = [
   },
   {
     path: '/video',
-    name: 'video',
-    component: () => import('@/views/video/video')
+    component: () => import('@/components/index'),
+    name: 'Video',
+    redirect: '/video/qsmy',
+    children:[{
+      path:'qsmy',
+      component: () => import('@/views/video/video'),
+      name: 'Qsmy'
+    }]
   },
   {
-    path: '/macao',
-    name: 'macao',
-    component: () => import('@/views/css/macao')
-  }
+    path: '/css',
+    component: () => import('@/components/index'),
+    name: 'Css',
+    redirect: '/css/macao',
+    children:[{
+      path:'macao',
+      component: () => import('@/views/css/macao'),
+      name: 'Macao'
+    }]
+  },
+  {
+    path: '/app',
+    component: () => import('@/components/index'),
+    name: 'App',
+    redirect: '/app/download',
+    children:[{
+      path:'download',
+      component: () => import('@/views/app/index'),
+      name: 'Download'
+    }]
+  },
 ]
 
 const router = new VueRouter({

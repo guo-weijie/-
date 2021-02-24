@@ -1,0 +1,36 @@
+[
+  { "name": "7-Zip", "url": "https://www.7-zip.org/a/7z1900-x64.exe" },
+  { "name": "Git", "url": "https://git-scm.com/download/win" },
+  {
+    "name": "Google Chrome",
+    "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B45245422-87D7-85C3-F025-B88E1A140575%7D%26lang%3Dzh-CN%26browser%3D5%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe"
+  },
+  {
+    "name": "Internet Download Manager",
+    "url": "https://mirror2.internetdownloadmanager.com/idman638build17.exe?v=lt&filename=idman638build17.exe"
+  },
+  {
+    "name": "Micorsoft Visual Code",
+    "url": "https://az764295.vo.msecnd.net/stable/622cb03f7e070a9670c94bae1a45d78d7181fbd4/VSCodeUserSetup-x64-1.53.2.exe"
+  },
+  {
+    "name": "Mozilla Firefox",
+    "url": "https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/en-US/win/ee643dbcb7acb2b75426a5959309246e71d92aaba4ba4cabdadb6a55f2e316c2/Firefox%20Installer.exe"
+  },
+  {
+    "name": "Node.js",
+    "url": "https://npm.taobao.org/mirrors/node/v14.15.5/node-v14.15.5-x64.msi"
+  },
+  {
+    "name": "PopPlayer",
+    "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe"
+  },
+  {
+    "name": "Steam",
+    "url": "https://media.st.dl.pinyuncloud.com/client/installer/SteamSetup.exe"
+  },
+  {
+    "name": "VMware Workstation",
+    "url": "https://download3.vmware.com/software/wkst/file/VMware-workstation-full-16.1.0-17198959.exe"
+  }
+]
